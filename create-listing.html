@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Adicionar Animal - PetApp</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<nav id="nav"></nav>
+<div class="form-wrap">
+  <h2>Adicionar Animal</h2>
+  <div id="msg"></div>
+  <form id="create-form">
+    <div class="field"><label>Nome *</label><input id="nome" type="text" required></div>
+    <div class="field"><label>Tipo</label>
+      <select id="tipo"><option value="">—</option><option>Cão</option><option>Gato</option><option>Outro</option></select>
+    </div>
+    <div class="field"><label>Raça</label><input id="raca" type="text"></div>
+    <div class="field"><label>Data de Nascimento</label><input id="dob" type="date"></div>
+    <div class="field"><label>Localização</label><input id="loc" type="text"></div>
+    <div class="field"><label>Descrição</label><textarea id="desc"></textarea></div>
+    <div class="field"><label>URL da Imagem</label><input id="img" type="url"></div>
+    <button class="btn-primary" type="submit">Publicar</button>
+  </form>
+</div>
+<script src="script.js"></script>
+</body></html>
